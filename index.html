@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-dark" href="javascript:void(0)">Company Name</a>
+        <button class="navbar-toggler border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon bg-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="javascript:void(0)">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="javascript:void(0)">Feactures</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="javascript:void(0)">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="javascript:void(0)">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="javascript:void(0)">Contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn border-primary" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- ----------------------------------------------Slider ------------------------------------------------------------->
+
+  <div id="carouselExampleIndicators" class="carousel slide custom" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="i">
+          <h1 class="text-center">Slider 1</h1>
+          <div class="info text-center my-5">
+            <h3 class="text-light">Second slide label</h3>
+            <p class="text-light">Some representative placeholder content for the slide.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="i">
+          <h1 class="text-center">Slider 2</h1>
+          <div class="info text-center">
+            <h3 class="text-light">Second slide label</h3>
+            <p> class="text-light"Some representative placeholder content for the slide.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="i">
+          <h1 class="text-center">Slider 3</h1>
+          <div class="info text-center">
+            <h3 class="text-light">Second slide label</h3>
+            <p v>Some representative placeholder content for the slide.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only carousel-dark">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+  <!-- ------------------------------------------------- -->
+
+  <div class="container mt-3">
+    <h3>Text title</h3>
+    <p>Lorem ipsum dolor,Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cupiditate maiores. Deleniti
+      nulla vitae reiciendis omnis inventore aut. Beatae, culpa. sit amet consectetur adipisicing elit. Voluptatem
+      accusantium sequi similique quaerat eos blanditiis inventore provident iure, sint cum. Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Atque pariatur id expedita corporis aperiam quisquam odit voluptatem est ea deserunt
+      corrupti, maiores sapiente, ducimus provident? Exercitationem repellendus praesentium aliquid. Quos reiciendis
+      accusamus ullam vitae, eaque a corrupti quod minima officia?</p>
+  </div>
+
+
+  <!-- ---------------------------- -->
+
+  <div class="container mt-4">
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin
+            adds the appropriate classes that we use to style each element. These classes control the overall
+            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+            plugin adds the appropriate classes that we use to style each element. These classes control the overall
+            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
+            adds the appropriate classes that we use to style each element. These classes control the overall
+            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- --------------------------------------------------------- -->
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card">
+          <h4>card header</h4>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ5cbAbiA4F0x5iDKMr0AOeXZN2DJn8ymdhn1szRYvFYFekZqc5_xi4mJkcxDWfagi9WY&usqp=CAU"
+            class="card-img-top img-thumbnail" alt="">
+          <div class="card-body">
+            <h2 class="card-title">card title</h2>
+            <h5>sub title</h5>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button class="btn btn-primary w-100">Go somewhere</button>
+
+            <h6 class="border w-100 mt-3">First List Item</h6>
+            <h6 class="border w-100 ">First List Item</h6>
+
+            <a href="#" class="m-2">Card Links</a>
+            <a href="#" class="m-2">Another Links</a>
+
+            <h6 class="border m-2">Card Footer</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <h4>card header</h4>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ5cbAbiA4F0x5iDKMr0AOeXZN2DJn8ymdhn1szRYvFYFekZqc5_xi4mJkcxDWfagi9WY&usqp=CAU"
+            class="card-img-top img-thumbnail" alt="">
+          <div class="card-body">
+            <h2 class="card-title">card title</h2>
+            <h5>sub title</h5>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button class="btn btn-primary w-100">Go somewhere</button>
+
+            <h6 class="border w-100 mt-3">First List Item</h6>
+            <h6 class="border w-100">First List Item</h6>
+
+            <a href="#" class="m-2">Card Links</a>
+            <a href="#" class="m-2">Another Links</a>
+            <h6 class="border m-2">Card Footer</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <h4>card header</h4>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ5cbAbiA4F0x5iDKMr0AOeXZN2DJn8ymdhn1szRYvFYFekZqc5_xi4mJkcxDWfagi9WY&usqp=CAU"
+            class="card-img-top img-thumbnail" alt="">
+          <div class="card-body">
+            <h2 class="card-title">card title</h2>
+            <h5>sub title</h5>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button class="btn btn-primary w-100">Go somewhere</button>
+
+            <h6 class="border w-100 mt-3">First List Item</h6>
+            <h6 class="border w-100">First List Item</h6>
+
+            <a href="#" class="m-2">Card Links</a>
+            <a href="#" class="m-2">Another Links</a>
+            <h6 class="border m-2">Card Footer</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <h4>card header</h4>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ5cbAbiA4F0x5iDKMr0AOeXZN2DJn8ymdhn1szRYvFYFekZqc5_xi4mJkcxDWfagi9WY&usqp=CAU"
+            class="card-img-top img-thumbnail" alt="">
+          <div class="card-body">
+            <h2 class="card-title">card title</h2>
+            <h5>sub title</h5>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button class="btn btn-primary w-100">Go somewhere</button>
+
+            <h6 class="border w-100 mt-3">First List Item</h6>
+            <h6 class="border w-100">First List Item</h6>
+
+            <a href="#" class="m-2">Card Links</a>
+            <a href="#" class="m-2">Another Links</a>
+            <h6 class="border m-2">Card Footer</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="container mt-5">
+    <table class="table caption-top">
+      <thead>
+        <tr>
+          <th scope="col"><input type="checkbox" name="" id=""></th>
+          <th scope="col">Title</th>
+          <th scope="col">Title</th>
+          <th scope="col">Title</th>
+          <th scope="col">Title</th>
+          <th scope="col">Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><input type="checkbox" name="" id=""></th>
+          <td>::</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>
+            <a href="" class="text-decoration-none p-2">Publish</a>
+            <a href="" class="text-decoration-none p-2">Edit</a>
+            <a href="" class="text-decoration-none p-2">Delete</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row"><input type="checkbox" name="" id=""></th>
+          <td>::</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>
+            <a href="" class="text-decoration-none p-2">Publish</a>
+            <a href="" class="text-decoration-none p-2">Edit</a>
+            <a href="" class="text-decoration-none p-2">Delete</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row"><input type="checkbox" name="" id=""></th>
+          <td>::</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>
+            <a href="" class="text-decoration-none p-2">Publish</a>
+            <a href="" class="text-decoration-none p-2">Edit</a>
+            <a href="" class="text-decoration-none p-2">Delete</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row"><input type="checkbox" name="" id=""></th>
+          <td>::</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>
+            <a href="" class="text-decoration-none p-2">Publish</a>
+            <a href="" class="text-decoration-none p-2">Edit</a>
+            <a href="" class="text-decoration-none p-2">Delete</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row"><input type="checkbox" name="" id=""></th>
+          <td>::</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>
+            <a href="" class="text-decoration-none p-2">Publish</a>
+            <a href="" class="text-decoration-none p-2">Edit</a>
+            <a href="" class="text-decoration-none p-2">Delete</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row"><input type="checkbox" name="" id=""></th>
+          <td>::</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>
+            <a href="" class="text-decoration-none p-2">Publish</a>
+            <a href="" class="text-decoration-none p-2">Edit</a>
+            <a href="" class="text-decoration-none p-2">Delete</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row"><input type="checkbox" name="" id=""></th>
+          <td>::</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>
+            <a href="" class="text-decoration-none p-2">Publish</a>
+            <a href="" class="text-decoration-none p-2">Edit</a>
+            <a href="" class="text-decoration-none p-2">Delete</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row"><input type="checkbox" name="" id=""></th>
+          <td>::</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>
+            <a href="" class="text-decoration-none p-2">Publish</a>
+            <a href="" class="text-decoration-none p-2">Edit</a>
+            <a href="" class="text-decoration-none p-2">Delete</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row"><input type="checkbox" name="" id=""></th>
+          <td>::</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>
+            <a href="" class="text-decoration-none p-2">Publish</a>
+            <a href="" class="text-decoration-none p-2">Edit</a>
+            <a href="" class="text-decoration-none p-2">Delete</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row"><input type="checkbox" name="" id=""></th>
+          <td>::</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>Text line</td>
+          <td>
+            <a href="" class="text-decoration-none p-2">Publish</a>
+            <a href="" class="text-decoration-none p-2">Edit</a>
+            <a href="" class="text-decoration-none p-2">Delete</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+
+
+  <!-- ------------------------------------------------Form Container------------------------------------- -->
+
+  <form class="container">
+    <div class="form-row m-0 row">
+      <div class="form-group col-md-6">
+        <input type="text" class="form-control" id="inputEmail4" placeholder="First Name">
+      </div>
+      <div class="form-group col-md-6">
+        <input type="text" class="form-control" id="inputPassword4" placeholder="Last name">
+      </div>
+    </div>
+
+    <div class="form-group m-2">
+      <input type="Email" class="form-control" id="inputAddress" placeholder="Email">
+    </div>
+    <div class="form-group m-2">
+      <input type="password" class="form-control" id="inputAddress2" placeholder="Password">
+    </div>
+
+    <div class="form-group m-2">
+      <input type="password" class="form-control" id="inputAddress2" placeholder="Comfirm Password">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit form</button>
+  </form>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
